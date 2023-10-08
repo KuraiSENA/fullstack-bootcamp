@@ -1,9 +1,11 @@
 import "./App.css";
+import Message from "./Message";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Si</h1>
+      <Message message="siks" color="red" />
+      <Message message="otro msg" color="blue" />
     </div>
   );
 };
